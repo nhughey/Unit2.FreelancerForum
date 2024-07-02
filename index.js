@@ -105,7 +105,7 @@ function render() {
     list.appendChild(element);
     return list;
   });
-  freelancerList.replaceChildren(...freelancerElements);
+  freelancer-items.replaceChildren(...freelancerElements);
 
   const averagePriceElement = document.querySelector("#average-price");
   const averagePrice = calculateaveragePrice();
